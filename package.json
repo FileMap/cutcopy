@@ -23,10 +23,10 @@
     },
     "dependencies": {
         "node-addon-api": "^4.0.0",
-        "node-gyp": "^9.1.0",
         "node-gyp-build": "^4.2.3"
     },
     "devDependencies": {
+        "node-gyp": "^9.1.0",
         "prebuildify": "^4.2.0"
     }
 }
