@@ -27,6 +27,8 @@ jobs:
 
       - run: yarn install --frozen-lockfile
 
+      - run: yarn build
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: update build files [skip ci]
