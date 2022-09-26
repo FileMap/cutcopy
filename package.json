@@ -1,0 +1,32 @@
+{
+    "name": "@filemap/cutcopy",
+    "version": "1.3.3",
+    "description": "FM custom library for system level cut copy paste.",
+    "main": "index.js",
+    "types": "index.d.ts",
+    "license": "MIT",
+    "gypfile": true,
+    "os": [
+        "darwin",
+        "win32"
+    ],
+    "files": [
+        "src",
+        "binding.gyp",
+        "index.js",
+        "index.d.ts",
+        "prebuilds"
+    ],
+    "scripts": {
+        "install": "node-gyp-build",
+        "build": "prebuildify --strip --napi"
+    },
+    "dependencies": {
+        "node-addon-api": "^4.0.0",
+        "node-gyp": "^9.1.0",
+        "node-gyp-build": "^4.2.3"
+    },
+    "devDependencies": {
+        "prebuildify": "^4.2.0"
+    }
+}
