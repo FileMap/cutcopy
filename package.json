@@ -22,7 +22,7 @@
     ],
     "scripts": {
         "install": "echo",
-        "build": "prebuildify --strip --napi"
+        "build": "zx scripts/build.mjs"
     },
     "dependencies": {
         "nan": "^2.14.0",
@@ -31,6 +31,7 @@
     },
     "devDependencies": {
         "node-gyp": "^9.1.0",
-        "prebuildify": "^4.2.0"
+        "prebuildify": "^4.2.0",
+        "zx": "^6.2.5"
     }
 }
