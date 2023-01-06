@@ -6,9 +6,6 @@
     "types": "index.d.ts",
     "license": "MIT",
     "gypfile": true,
-    "engines": {
-        "node": "^16.0.0"
-    },
     "os": [
         "darwin",
         "win32"
@@ -18,7 +15,6 @@
         "build": "zx scripts/build.mjs"
     },
     "dependencies": {
-        "nan": "^2.14.0",
         "node-addon-api": "^4.0.0",
         "node-gyp-build": "^4.2.3"
     },
