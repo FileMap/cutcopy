@@ -13,13 +13,6 @@
         "darwin",
         "win32"
     ],
-    "files": [
-        "src",
-        "binding.gyp",
-        "index.js",
-        "index.d.ts",
-        "prebuilds"
-    ],
     "scripts": {
         "install": "echo",
         "build": "zx scripts/build.mjs"
